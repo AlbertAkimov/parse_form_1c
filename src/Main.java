@@ -14,7 +14,6 @@ import java.util.Scanner;
 public class Main {
 
     public static List<String> nameMetadata = new ArrayList<>();
-    public static List<Struct> listBin = new ArrayList<>();
 
     public static void main(String[] args) {
 
@@ -71,7 +70,7 @@ public class Main {
                         }
                     }
 
-                    //System.out.println("    - Name form: " + getNameForm(file));
+                    System.out.println("    - Name form: " + getNameForm(file));
                 }
             }
         }
